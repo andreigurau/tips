@@ -41,6 +41,9 @@ buttons on the initial page were based off of these values. I also tried to
 do this with prepareForSegue(), but once I realized it was based off of NSUserDefaults,
 I might be able to implement this now.
 
+Also, this is my first real project with github. Please let me know if something if wrong.
+I'm not sure if I did the .gitignore correctly and I feel like it might make my program not run.
+
 ## License
 
     Copyright [yyyy] [name of copyright owner]

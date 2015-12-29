@@ -145,7 +145,7 @@ class ViewController: UIViewController {
         let whenClosed = defaults.objectForKey("timeKey") as! NSDate?
         print(now)
         print(whenClosed)
-        if now.timeIntervalSinceDate(whenClosed!) > 600 || whenClosed == nil
+        if  whenClosed == nil || now.timeIntervalSinceDate(whenClosed!) > 600
         {
             return "0"
             
